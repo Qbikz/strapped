@@ -1,0 +1,10 @@
+{
+  "options": {
+    "swapPath": "shared/tmp"
+  },
+  "project": [
+    "private/files/**/*.php",
+    "private/files/**/*.phtml"
+  ],
+  "tests": "private/tests/**/*.php"
+}

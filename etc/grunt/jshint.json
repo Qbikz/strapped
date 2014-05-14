@@ -1,0 +1,28 @@
+{
+  "system": [
+    "Gruntfile.js",
+    "private/tasks/**/*.js"
+  ],
+  "default": "public/skin/frontend/custom/default/**/*.js",
+  "options": {
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "boss": true,
+    "eqnull": true,
+    "browser": true,
+    "globals": {
+      "require": true,
+      "define": true,
+      "requirejs": true,
+      "describe": true,
+      "expect": true,
+      "it": true
+    }
+  }
+}

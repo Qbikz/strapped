@@ -1,0 +1,13 @@
+{
+  "project": {
+    "dir": "private/files"
+  },
+  "tests": {
+    "dir": "private/tests"
+  },
+  "options": {
+    "bin": "public/vendor/bin/phpcs",
+    "extensions": "php",
+    "standard": "Zend"
+  }
+}

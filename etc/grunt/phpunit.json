@@ -1,0 +1,11 @@
+{
+  "project": {
+    "dir": "private/tests/phpunit"
+  },
+  "options": {
+    "bin": "public/vendor/bin/phpunit",
+    "bootstrap": "private/tests/phpunit.php",
+    "colors": true,
+    "testdox": true
+  }
+}

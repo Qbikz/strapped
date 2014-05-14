@@ -1,0 +1,30 @@
+{
+  "default": {
+    "settings_session": "db",
+    "settings_currency": "EUR",
+    "settings_timezone": "Europe/Berlin",
+    "settings_locale": "nl_NL",
+    "admin_route": "adminpanel",
+    "admin_firstname": "Qbikz",
+    "admin_lastname": "BV",
+    "admin_email": "magento@qbikz.com",
+    "admin_username": "qbikz",
+    "admin_password": "@Qbikz2013",
+    "url_secure": "https://project.dev/",
+    "url_unsecure": "http://project.dev/",
+    "encryption_key": "693f73c26cc672bd1a52d7cc03d6c204928805fa"
+  },
+  "development": {},
+  "staging": {
+    "url_secure": "http://staging.project.com/",
+    "url_unsecure": "http://staging.project.com/"
+  },
+  "testing": {
+    "url_secure": "http://testing.project.com/",
+    "url_unsecure": "http://testing.project.com/"
+  },
+  "production": {
+    "url_secure": "http://project.com/",
+    "url_unsecure": "http://project.com/"
+  }
+}

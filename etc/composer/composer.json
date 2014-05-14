@@ -1,0 +1,65 @@
+{
+  "require": {
+    "php": ">=5.4.0",
+    "magento-hackathon/magento-composer-installer": "dev-master",
+    "fbrnc/aoe_classpathcache": "dev-master",
+    "fbrnc/aoe_scheduler": "dev-master",
+    "magento-hackathon/hackathon_magemonitoring": "dev-master",
+    "tim-reynolds/magento-qconfig": "dev-master",
+    "qbikz/magento-community-composer": "dev-master"
+  },
+  "require-dev": {
+    "doctrine/common": "*",
+    "scrutinizer/php-analyzer": "dev-master",
+    "scrutinizer/utils": "dev-master",
+    "jms/serializer": "dev-master",
+    "jms/php-manipulator": "dev-master",
+    "nikic/php-parser": "dev-master",
+    "squizlabs/php_codesniffer": "1.*",
+    "behat/behat": "*",
+    "behat/mink": "*",
+    "behat/mink-extension": "*",
+    "behat/mink-zombie-driver": "*",
+    "vipsoft/jira-extension": "*",
+    "phpunit/phpunit": "*",
+    "phpunit/php-invoker": "*",
+    "phpunit/phpunit-mock-objects": "*",
+    "phpunit/php-code-coverage": "*",
+    "ecomdev/ecomdev_phpunit": "*",
+    "magetest/magento-behat-extension": "dev-develop"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/schmittjoh/PHP-Parser"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/Qbikz/magento-community-composer.git"
+    },
+    {
+      "type": "composer",
+      "url": "http://packages.firegento.com"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "../../public",
+    "magento-deploystrategy": "copy",
+    "magento-force": true
+  },
+  "config": {
+    "vendor-dir": "../../public/vendor",
+    "bin-dir": "../../public/vendor/bin"
+  },
+  "autoload": {
+    "psr-0": {
+        "": [
+          "../../public/app",
+          "../../public/app/code/local",
+          "../../public/app/code/community",
+          "../../public/app/code/core",
+          "../../public/lib"
+        ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "copy": {
+    "files": [ "private/files/**/*" ],
+    "tasks": [ "copy:private" ]
+  },
+  "uglify": {
+    "files": [ "private/themes/default/**/*.js" ],
+    "tasks": [ "uglify:default", "jshint:default" ]
+  },
+  "less": {
+    "files": [ "private/themes/default/**/*.less" ],
+    "tasks": [ "less", "csslint:default" ]
+  }
+}

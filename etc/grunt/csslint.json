@@ -1,0 +1,8 @@
+{
+  "default": {
+    "options": {
+      "import": 2
+    },
+    "src": [ "./public/skin/frontend/custom/default/*.css" ]
+  }
+}

@@ -1,0 +1,8 @@
+
+/bin/composer.phar
+/bin/n98-magerun.phar
+
+/.vagrant/
+/public/
+/shared/
+/node_modules/

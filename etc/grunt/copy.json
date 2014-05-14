@@ -1,0 +1,23 @@
+{
+  "private": {
+    "files": [{
+      "expand": true,
+      "cwd": "./private/files",
+      "src": [
+          "**"
+      ],
+      "dest": "./public/"
+    }]
+  },
+  "theme": {
+    "files": [{
+      "expand": true,
+      "cwd": "./private/themes/default",
+      "src": [
+          "fonts/**",
+          "images/**"
+      ],
+      "dest": "./public/skin/frontend/custom/default"
+    }]
+  }
+}

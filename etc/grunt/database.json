@@ -1,0 +1,40 @@
+{
+  "options": {
+    "dir": "./shared/backup"
+  },
+  "development": {
+    "title":  "Development",
+    "prefix": "",
+    "name":   "project",
+    "user":   "dev",
+    "pass":   "dev",
+    "host":   "10.0.100.100"
+  },
+  "testing": {
+    "title":  "Testing",
+    "prefix": "",
+    "name":   "testing_project",
+    "user":   "testing_project",
+    "pass":   "password",
+    "host":   "localhost",
+    "ssh":    "testing@project.com"
+  },
+  "staging": {
+    "title":  "Staging",
+    "prefix": "",
+    "name":   "staging_project",
+    "user":   "staging_project",
+    "pass":   "password",
+    "host":   "localhost",
+    "ssh":    "staging@project.com"
+  },
+  "production": {
+    "title":  "Production",
+    "prefix": "",
+    "name":   "production_project",
+    "user":   "production_project",
+    "pass":   "password",
+    "host":   "localhost",
+    "ssh":    "production@project.com"
+  }
+}

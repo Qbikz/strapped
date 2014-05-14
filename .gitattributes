@@ -1,0 +1,15 @@
+# Autodetect text files
+* text=auto
+
+# Force UNIX EOL on specified filetypes
+Puppetfile text eol=lf
+Vagrantfile text eol=lf
+*.pp text eol=lf
+*.php text eol=lf
+*.phtml text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+.bash_aliases text eol=lf
+.vimrc text eol=lf

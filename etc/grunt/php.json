@@ -1,0 +1,11 @@
+{
+  "dist": {
+    "options": {
+      "port": 8080,
+      "base": "public",
+      "open": true,
+      "hostname": "127.0.0.1",
+      "keepalive": true
+    }
+  }
+}

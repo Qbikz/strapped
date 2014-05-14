@@ -1,0 +1,33 @@
+{
+  "default": {
+    "options": {
+      "width": 80,
+      "mangle": false,
+      "compress": false,
+      "beautify": true,
+      "banner": "/*! <%= pkg.name %> - v<%= pkg.version %> - <%= grunt.template.today('yyyy-mm-dd') %> */"
+    },
+    "files": {
+      "public/skin/frontend/custom/default/theme.js": [
+        "private/themes/default/js/jquery-1.10.2.js",
+        "private/themes/default/js/jquery-ui-1.10.4.js",
+        "private/themes/default/bootstrap/js/transition.js",
+        "private/themes/default/bootstrap/js/alert.js",
+        "private/themes/default/bootstrap/js/button.js",
+        "private/themes/default/bootstrap/js/carousel.js",
+        "private/themes/default/bootstrap/js/collapse.js",
+        "private/themes/default/bootstrap/js/dropdown.js",
+        "private/themes/default/bootstrap/js/modal.js",
+        "private/themes/default/bootstrap/js/tooltip.js",
+        "private/themes/default/bootstrap/js/popover.js",
+        "private/themes/default/bootstrap/js/scrollspy.js",
+        "private/themes/default/bootstrap/js/tab.js",
+        "private/themes/default/bootstrap/js/affix.js",
+        "private/themes/default/js/holder.js",
+        "private/themes/default/js/typeahead.js",
+        "private/themes/default/js/lazyload.js",
+        "private/themes/default/custom.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <install>
+            <date><![CDATA[Thu, 01 May 2014 01:00:00 +0000]]></date>
+        </install>
+        <crypt>
+            <key><%= config.encryption_key %></key>
+        </crypt>
+        <disable_local_modules>false</disable_local_modules>
+        <resources>
+            <db>
+                <table_prefix><%= db.prefix %></table_prefix>
+            </db>
+            <default_setup>
+                <connection>
+                    <host><%= db.host %></host>
+                    <username><%= db.user %></username>
+                    <password><%= db.pass %></password>
+                    <dbname><%= db.name %></dbname>
+                    <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
+                    <model>mysql4</model>
+                    <type>pdo_mysql</type>
+                    <pdoType></pdoType>
+                    <active>1</active>
+                </connection>
+            </default_setup>
+        </resources>
+        <session_save><![CDATA[redis]]></session_save>
+        <session_save_path><![CDATA[tcp://10.0.100.100:6379?db=1&weight=2&timeout=2.5]]></session_save_path>
+        <cache>
+            <backend>Mage_Cache_Backend_Redis</backend>
+            <backend_options>
+                <server>10.0.100.100</server>
+                <port>6379</port>
+                <persistent>project-cache</persistent>
+                <database>0</database>
+                <password></password>
+                <force_standalone>0</force_standalone>
+                <connect_retries>1</connect_retries>
+                <read_timeout>10</read_timeout>
+                <automatic_cleaning_factor>0</automatic_cleaning_factor>
+                <compress_data>1</compress_data>
+                <compress_tags>1</compress_tags>
+                <compress_threshold>20480</compress_threshold>
+                <compression_lib>gzip</compression_lib>
+            </backend_options>
+        </cache>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <frontName><%= config.admin_route %></frontName>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

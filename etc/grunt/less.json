@@ -1,0 +1,15 @@
+{
+  "default": {
+    "options": {
+      "cleancss": true,
+      "compress": true,
+      "syncImport": true
+    },
+    "files": {
+      "public/skin/frontend/custom/default/styles.css": [
+        "private/themes/default/bootstrap.less",
+        "private/themes/default/styles.less"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "options": {
+    "bin": "public/vendor/bin/phpalizer"
+  },
+  "project": {
+    "dir": "private/files",
+    "command": "run"
+  }
+}

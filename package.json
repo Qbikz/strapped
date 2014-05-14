@@ -1,0 +1,49 @@
+{
+  "name": "project-bootstrap",
+  "version": "0.1.0",
+  "description": "Project Bootstrapper",
+  "author": [
+    {
+      "name": "Roy Klopper",
+      "email": "r.klopper@qbikz.com",
+      "url": "http://qbikz.com/"
+    }
+  ],
+  "homepage": "http://qbikz.com/",
+  "dependencies": {
+    "grunt": "*",
+    "lodash": "*",
+    "shelljs": "*",
+    "wget": "*",
+    "chmod": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-symlink": "*",
+    "grunt-php-analyzer": "*",
+    "grunt-composer": "*",
+    "grunt-php": "*",
+    "grunt-phpunit": "*",
+    "grunt-phplint": "*",
+    "grunt-phpcs": "*",
+    "grunt-parallel-behat": "*"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "project",
+    "bootstrap"
+  ]
+}

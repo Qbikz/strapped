@@ -1,0 +1,13 @@
+{
+  "options": {
+    "overwrite": true
+  },
+  "media": {
+    "src": "shared/media",
+    "dest": "public/media"
+  },
+  "var": {
+    "src": "shared/var",
+    "dest": "public/var"
+  }
+}

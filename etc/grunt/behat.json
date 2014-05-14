@@ -1,0 +1,7 @@
+{
+  "src": "private/tests/features/**/*.feature",
+  "config": "config/behat.yml",
+  "maxProcesses": 4,
+  "bin": "public/vendor/bin/behat",
+  "flags": "--tags @wip"
+}
